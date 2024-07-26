@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-bar .nav {
+    display: flex;
+   background-color: white;
+   list-style: none;
+   justify-content: space-between;
+   height: 65px;
+   align-items: center;
+ 
+}
+.left{ 
+    display: flex;
+    align-items: center;
+    width: 50%;   
+ }
+
+ .w3schools{
+    margin: 5px;
+    width: 60px;
+    padding: 7px;
+    height: 80%;  
+ }
+ .id a{
+    text-decoration: none;
+    color:black;
+ }
+ .si a{
+    text-decoration: none;
+    color: black;
+ }
+ .bi a{
+    color: white;
+ }
+ .html a{
+    text-decoration: none;
+    color: white;
+ }
+.id{
+    padding: 23px 25px;
+    display: flex;
+    height: 80%;
+    font-size: 16px;
+}
+
+.id:hover{
+    background-color: #04A96D;
+}
+.image{
+    width:10px ;
+}
+
+.right{
+    display:flex;
+   margin: 0px;
+   gap: 10px;
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    
+}
+.si{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro{
+    background-color:#282A35;
+    color: white;
+    border-radius:50px;
+    width: 60px;
+   
+    
+}
+.get{
+    background-color: #FFC0C7;
+    border-radius:50px;
+    width: 120px;
+
+}
+.create{
+    background-color:#FFF4A3  ;
+    border-radius:50px;
+    width: 130px;
+ 
+    
+}
+
+.sign{
+    background-color: #04AA6D;
+    width: 80px;
+    border-radius: 50px;
+    z-index: 3;
+     color: white; 
+}
+.log{
+    width: 90px;
+    border-radius: 50px ;
+    background-color: #D9EEE1;
+    justify-content: right;
+     right: 50px;
+     z-index: 2;
+    padding-right: 20px;
+}
+.a{
+    position: relative;
+    display: flex; 
+
+}
+.hp .hp1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 44px;
+    align-items: center;
+    background-color: #282A35;
+}
+
+.down-left {
+    width: 100%; 
+    color: WHITE;
+    align-items: center;
+    display: flex;
+}
+
+.html{
+    padding: 12.5px 17px;
+    
+}
+.html:hover{
+    background-color:black;
+}
+ .css{
+    background-color: #04AA6D ;
+}
+ .css:hover{
+background-color: #079762;
+}
+.create:hover{
+    background-color: #dfd482;
+
+}
+.sign:hover{
+    background-color:#079762 ;
+}
+.get:hover{
+background-color: #e39fa6;
+}
+.pro:hover{
+    background-color: black;
+}
+.log:hover{
+background-color:#079762 ;
+}
+.home{
+    width: 25px;
+    padding-right: 10px;
+    margin: 10px;
+  
+}
+.icon{
+    width: 17px;
+    padding: 6px;
+    
+    border-radius: 100%;
+    margin: 7px;
+}
+
+.down-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20px;
+    padding: 20px;
+}
+.icon:hover{
+    background-color: rgb(216, 213, 213);
+}
