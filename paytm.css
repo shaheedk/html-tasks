@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+.nav {
+    display: flex;
+   
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   width: 100%;
+   height: 80px;
+    
+}
+.items{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 40px;
+    margin-left: 300px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+.name:hover{
+    background-color:  rgba(100, 100, 111, 0.2) ;
+
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 80px;
+    position: absolute;
+    top: 25px;
+}
+.sign{
+    position: absolute;
+    right: 30px;
+    top:30px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(9, 189, 249);
+    border-radius: 65px;
+    width: 100px;
+    height: 35px;
+}
+.sign:hover{
+    background-color: rgb(9, 9, 136);
+   
+}
+
+.si{
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top:5px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+.silogo{
+    position: absolute;
+    right: 0px;
+    
+}
+.ndlogo{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+
+}
+.content-head {
+    
+        font-size: 25px;
+        font-weight: 800px;
+        line-height: 65px;
+        position: absolute;
+        left: 50px;
+        font-family: Inter, sans-serif;
+        top: 300px;
+        margin-left: 10px;
+
+
+
+    
+}
+mein{
+    display: flex;
+    width: 100vh;
+}
+.para{
+    display: flex;
+    position: absolute;
+    margin-left: 55px;
+    top: 440px;
+    font-family: inter,sans-serif;
+    font-size: 20px;
+    font-weight: 800px;
+    }
+    .right-img{
+        width: 400px;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    
+    }
+    .ad {
+display: flex;
+        background-color: black;
+        border-radius: 60px;
+        width: 200px;
+        height: 30px;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        padding: 5px;
+    }
+    .ad:hover{
+        background-color: #fff;
+       .text{ color: black;}
+        border: 1px solid black;
+        .icons{
+            filter: invert(100%) brightness(0%) contrast(100%);
+        }
+    }
+    .text{
+        color: #fff;
+        position: relative;
+        left: 5px;
+        top: 5px;
+    }
+    .icons{
+        width: 20px;
+        height: 20px;
+        position: relative;
+      
+        top: 5px;
+    }
+    
