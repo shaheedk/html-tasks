@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>W3</title>
-    <link rel="stylesheet" href="w3.css">
-</head>
-<body>
- 
-        <div class="nav-bar">
-            <div class="nav">
-            
-                <div class="left">
-                <div ><img class="w3schools" src="data:image/png;base64,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" ></div>
-                <div class="id" > <a href="#tutorials">Tutorials <img class="image" src="dropdown.jpg" ></a> </div>
-                <div class="id"> <a href="#references">References<img class="image" src="dropdown.jpg"></a></div>
-                    <div class="id"> <a href="#exercises">Exercises<img class="image" src="dropdown.jpg"> </a></div>
-                       <div class="id"><a href="#bootcamp">Bootcamp</a> </div>
-                        
-            </div>
-            <div class="right">
-
-                <div class="pro b si bi"><a href="#pro">Pro</a></div>
-                <div class="get b si"><a href="#get">Get Certified</a></div>
-                <div class="create b si"><a href="#create">Create Website</a></div>
-                
-                <div class="sign a si bi"><a href="#sign">Sign Up</a></div>
-                <div class="log a si"><a href="#log">Log in</a></div>
-                
-            </div>
-              
+    <link rel="stylesheet" href="w3.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="nav">
+        <div class="left">
+          <div>
+            <img
+              class="w3schools"
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <div class="id">
+            <a href="#tutorials"
+              >Tutorials <img class="image" src="dropdown.jpg"
+            /></a>
+          </div>
+          <div class="id">
+            <a href="#references"
+              >References<img class="image" src="dropdown.jpg"
+            /></a>
+          </div>
+          <div class="id">
+            <a href="#exercises"
+              >Exercises<img class="image" src="dropdown.jpg" />
+            </a>
+          </div>
+          <div class="id"><a href="#bootcamp">Bootcamp</a></div>
         </div>
+        <div class="right">
+          <div class="pro b si bi"><a href="#pro">Pro</a></div>
+          <div class="get b si"><a href="#get">Get Certified</a></div>
+          <div class="create b si"><a href="#create">Create Website</a></div>
+
+          <div class="sign a si bi"><a href="#sign">Sign Up</a></div>
+          <div class="log a si"><a href="#log">Log in</a></div>
+        </div>
+      </div>
     </div>
-    
-<div class="hp">
-    <div class="hp1">
-    <div class="down-left">
-    <div ><img src="home.png" class="home" ></div>
-    <div class="html"><a href="#html">HTML</a></div>
-    <div class="html"> <a href="#css">CSS</a></div>
-    <div class="html"> <a href="#java">JAVASCRIPT</a></div>
-    <div class="html"> <a href="#spl">SQL</a></div>
-    <div class="html"><a href="#python">PYTHON</a></div>
-    <div class="html"><a href="#java">JAVA</a></div>
-    <div class="html"><a href="#php">PHP</a></div>
-    <div class="html"><a href="#boot">BOOTSRAP</a></div>
-    <div class="html css"> <a href="#how">HOWTO</a></div>
-    <div class="html"> <a href="#w3"> W3.CSS</a></div>
-    <div class="html"><a href="#c">C</a></div>
-    <div class="html"><a href="#c++">C++</a></div>
-</div>
-<div class="down-right">
-    <div><img src="circle.jpg" class=" icon"></div>
-<div ><img src="earth-america.png" class="icon"></div>
-<div ><img src="search-icon.png" class=" icon"></div>
 
-</div>
-</div>  </div>
-
-
-   
-
-</body>
+    <div class="hp">
+      <div class="hp1">
+        <div class="down-left">
+          <div><img src="home.png" class="home" /></div>
+          <div class="html"><a href="#html">HTML</a></div>
+          <div class="html"><a href="#css">CSS</a></div>
+          <div class="html"><a href="#java">JAVASCRIPT</a></div>
+          <div class="html"><a href="#spl">SQL</a></div>
+          <div class="html"><a href="#python">PYTHON</a></div>
+          <div class="html"><a href="#java">JAVA</a></div>
+          <div class="html"><a href="#php">PHP</a></div>
+          <div class="html"><a href="#boot">BOOTSRAP</a></div>
+          <div class="html css"><a href="#how">HOWTO</a></div>
+          <div class="html"><a href="#w3"> W3.CSS</a></div>
+          <div class="html"><a href="#c">C</a></div>
+          <div class="html"><a href="#c++">C++</a></div>
+        </div>
+        <div class="down-right">
+          <div><img src="circle.jpg" class="icon" /></div>
+          <div><img src="earth-america.png" class="icon" /></div>
+          <div><img src="search-icon.png" class="icon" /></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
